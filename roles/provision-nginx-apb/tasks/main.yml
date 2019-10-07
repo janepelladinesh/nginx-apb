@@ -28,7 +28,7 @@
       app: '{{ namespace }}'
       service: nginx-apb
     containers:
-      - image: docker.io/alessfg/openshift-nginx
+      - image: docker.io/dineshcherry/getstarted:pyp
         name: nginx-apb
         ports:
           - container_port: 8080
